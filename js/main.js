@@ -185,7 +185,7 @@ function Legend_Writing(List, Scale_Type) {
 d3.json("data/data.json").then(function (data) {
 
     // Getting the first season and store it in a variable 
-    first_season = +data[0].season;
+    first_season = 1955;
     // Format Data By converting the trophie numbers from strings to int's 
     new_data = data.map(function (team) {
         return team.teams;
